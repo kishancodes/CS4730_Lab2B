@@ -1,4 +1,9 @@
-This exercise involves development of a Web Server. This Web Server i) creates a connection when contacted by a client (browser), ii) receives HTTP requests from this connection; iii) parses the request to find the file being requested iv) get the file from the server file system and send the response over the TCP connection to the browser. If the requested file is not available in your server, your server should return, “404 file not found.”
+This exercise involves development of a Web Server. 
+This Web Server 
+
+i) creates a connection when contacted by a client (browser), 
+ii) receives HTTP requests from this connection; 
+iii) parses the request to find the file being requested iv) get the file from the server file system and send the response over the TCP connection to the browser. If the requested file is not available in your server, your server should return, “404 file not found.”
 
 The skeleton code for the server is given below. Complete the code and run the server. Test it by sending requests from browsers.
 
